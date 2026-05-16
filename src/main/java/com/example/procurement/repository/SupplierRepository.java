@@ -1,0 +1,9 @@
+package com.example.procurement.repository;
+
+import com.example.procurement.model.Supplier;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface SupplierRepository extends JpaRepository<Supplier, Long> {
+}
